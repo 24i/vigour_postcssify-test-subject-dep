@@ -2,7 +2,7 @@
   "name": "postcssify-test-subject-dep",
   "version": "1.0.0",
   "description": "Test repo for postcssify",
-  "main": "index.js",
+  "main": "dep.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,8 @@
   "contributors": [
     "Shawn Inder <shawn@vigour.io>"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "postcssify-test-subject-dep-dep": "git+https://github.com/vigour-io/postcssify-test-subject-dep-dep.git#master"
+  },
   "engines": {}
 }
