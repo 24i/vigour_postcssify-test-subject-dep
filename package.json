@@ -28,7 +28,7 @@
   "browserify": {
     "transform": [
       [
-        "postcssify/transform",
+        "postcssify-transform",
         {
           "plugins": "postcss-cssnext"
         }
